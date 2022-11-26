@@ -1,0 +1,33 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Jidin Dinesh"
+theme = "hugo-rocinante"
+paginate = 1000
+summaryLength = 0
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[author]
+  name = "Jidin Dinesh"
+
+[params]
+  mainSections = ["post"]
+  email = "me@jidin.co"
+  favicon = "favicon.png"
+  #about = 
+
+  [[params.links]]
+    [[params.links.link]]
+      name = "Email"
+      href = "/contact"
+      smart_email_link = true
+    [[params.links.link]]
+      name = "Twitter"
+      href = "https://twitter.com/@JidinDinesh"
+      new_tab = true
+
