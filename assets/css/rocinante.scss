@@ -1,14 +1,13 @@
 @import 'includes';
 
 /* https://markdotto.com/2018/02/07/github-system-fonts/ */
-$fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$fonts: "EB Garamond";
 
 body {
   font-family: $fonts;
-  color: #FFF;
+  color: #141414;
   font-size: 18px;
-  line-height: 1.8;
-  background-color: #1f2225;
+  background-color: #FFF;
 }
 
 p {
@@ -122,14 +121,14 @@ figcaption {
   }
   text-align: center;
   font-size: 0.9em;
-  color: #eee;
+  color: #000;
 }
 
 blockquote {
   padding-left: 1.25em;
   padding-right: 1.5em;
-  border-left: .25em solid #eee;
-  color: #eee;
+  border-left: .25em solid #222;
+  color: #000;
 }
 
 table {
@@ -240,10 +239,11 @@ footer {
 
 .post-list {
   h1 a {
-    color: rgb(247, 247, 247);
+    color: #141414;
     text-decoration: none;
     border: none;
-
+    text-decoration: underline;
+    text-decoration-color:#F00;
     &:hover {
       color: #5544FF;
     }
@@ -252,8 +252,6 @@ footer {
     margin-bottom: 1.25em;
   }
 
-  padding-bottom: 1em;
-  border-bottom: 1px solid #ccc;
 }
 
 .tags {
